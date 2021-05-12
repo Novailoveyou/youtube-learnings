@@ -1,0 +1,17 @@
+{
+	"name": "terminal-style-lp-winboxjs",
+	"version": "1.0.0",
+	"description": "This is me following Brad Traversy's with some added twists",
+	"main": "./public/index.html",
+	"scripts": {
+		"dev": "sass --watch ./src/app.sass ./public/stls.css",
+		"build": "sass ./src/app.sass ./public/stls.css --style compressed"
+	},
+	"keywords": [],
+	"author": "nover",
+	"license": "ISC",
+	"dependencies": {},
+	"devDependencies": {
+		"sass": "^1.32.13"
+	}
+}

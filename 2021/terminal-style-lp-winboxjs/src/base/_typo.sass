@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap')
+
+.h1
+	margin-bottom: px(20)
+	letter-spacing: px(-5)
+	color: $c-alpha
+	@include phone
+		font-size: px(36)
+	@include tablet
+		font-size: px(50)
+	@include laptop
+		font-size: px(50)
+	@include desktop
+		font-size: px(50)
+
+.h2
+	margin-bottom: px(10)
+
+.h3
+	color: $c-alpha
+
+.p
+	margin: px(20) 0
